@@ -17,5 +17,8 @@ public class CarExample {
         double autonomia = van.obterAutonomia();
         System.out.println("A autonomia do carro é: " + autonomia);
         System.out.println("A autonomia do carro é: " + van.obterAutonomia());
+
+        double qtdCombustivel = van.calcularCombustivel(10);
+        System.out.println("Quantidade de combustível necessária " + qtdCombustivel);
     }
 }
