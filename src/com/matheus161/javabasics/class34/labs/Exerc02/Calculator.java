@@ -23,7 +23,7 @@ public class Calculator {
 
     public static int factorial(int x) {
         int factorial = 1;
-        for (int i = 5; i > 0; i--) {
+        for (int i = x; i > 0; i--) {
             factorial *= i;
         }
 
